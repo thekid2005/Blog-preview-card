@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --Yellow: #F4D04E;
+    --Black: #111;
+    --Pure-White: #FFF;
+    --Grey: #7F7F7F;
+}
+
+body {
+    background: var(--Yellow);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    border-radius: 1.25rem;
+    border: 1px solid var(--Black);
+    background: var(--Pure-White);
+    box-shadow: 8px 8px 0px 0px #000;
+    display: flex;
+    width: 24rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-shrink: 0;
+}
+
+.card h2{
+    display: flex;
+    padding: 0.25rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.25rem;
+    background: var(--Yellow);
+    
+    color: var(--Black);
+    
+    /* Body S (Bold) */
+    font-family: "Figtree", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 1.3125rem */
+}
+
+.card h3 {
+    color: var(--Black);
+
+    /* Body S (Regular) */
+    font-family: "Figtree", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.3125rem */
+}
+
+.card h1 {
+    align-self: stretch;
+    color: var(--Black);
+
+    /* Heading */
+    font-family: "Figtree", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 2.25rem */
+}
+
+.title:hover {
+    color: var(--Yellow);
+    cursor: pointer;
+
+}
+
+.card p {
+    align-self: stretch;
+    color: var(--Grey);
+
+    /* Body M */
+    font-family: "Figtree", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.5rem */
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+
+.name {
+    color: var(--Black, #111);
+
+    /* Body S (Bold) */
+    font-family: "Figtree", sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 1.3125rem */
+}
+
+.name img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
